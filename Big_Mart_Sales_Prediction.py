@@ -376,5 +376,6 @@ submission['Item_Outlet_Sales'] = submission['Item_Outlet_Sales'].apply(lambda x
 # Display the first few rows
 # print("\n--- Final Submission DataFrame Head (Using Best Model) ---")
 # print(submission.head())
-SUBMISSION_FILE_NAME = 'submission_sales_predictions_Ensemble_AdvancedFE_KNNv2.csv'
+SUBMISSION_FILE_NAME = 'Predictions.csv'
 FINAL_SUBMISSION_PATH = os.path.join(S3_BUCKET_PATH, SUBMISSION_FILE_NAME)
+
